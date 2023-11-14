@@ -5,6 +5,9 @@ A powerful XSS scanner made in python 3.7<br/>
 
 ## Installing
 
+### Run on replit
+[![Run on Replit](https://replit.com/badge/github/tucommenceapousser/XSSCon)](https://replit.com/github/tucommenceapousser/XSSCon)
+
 Requirements: <br/>
 
 <li> BeautifulSoup4 </li>
