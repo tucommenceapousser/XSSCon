@@ -22,7 +22,7 @@ pip install requests
 Commands:
 
 ```bash
-git clone https://github.com/menkrep1337/XSSCon
+git clone https://github.com/tucommenceapousser/XSSCon
 chmod 755 -R XSSCon
 cd XSSCon
 python3 xsscon.py --help 
@@ -31,7 +31,7 @@ python3 xsscon.py --help
 Basic usage:
 
 ```bash
-python3 xsscon.py -u http://testphp.vulnweb.com
+python3 xsscon.py -u http://testphp.vulnweb.com --proxy https://proximity-trkn.replit.app --method 2
 ```
 <br/>
 Advanced usage:
