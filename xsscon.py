@@ -1,6 +1,6 @@
 '''
 XSSCon - 2019/2020
-This project was created by menkrep1337 with 407Aex team. 
+This project was modded by trhacknon with 407Aex team. 
 Copyright under the MIT license
 '''
 import argparse
@@ -10,7 +10,7 @@ from lib.core import *
 from random import randint
 from lib.crawler.crawler import *
 epilog="""
-Github: https://www.github.com/menkrep1337/XSSCon
+Github: https://www.github.com/tucommenceapousser/XSSCon
 Version: 0.5 Final
 """
 def check(getopt):
@@ -61,7 +61,7 @@ def start():
 ***************
 Project: XSSCon
 License: MIT
-Author: menkrep1337
+Modder: trhacknon
 Last updates: 2019 may 26
 Note: Take your own RISK
 ****************
